@@ -1,0 +1,27 @@
+.mod {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mod-content {
+  width: 900px;
+  background-color: #fff;
+}
+.mod-header,
+mod-footer {
+  padding: 10px;
+}
+.mod-title {
+  margin: 0;
+}
+.mod-body {
+  padding: 10px;
+  border-top: 1px solid#eee;
+  border-bottom: 1px solid #eee;
+}
